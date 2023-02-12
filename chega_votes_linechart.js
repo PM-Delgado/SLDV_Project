@@ -22,10 +22,10 @@ function chega_votes_linechart() {
 
     // SVG Title
     plot_g.append("text")
-        .attr("x", 100)
+        .attr("x", 80)
         .attr("y", -20)
         .attr("text-align", "center")
-        .attr("font-size", "22px")
+        .attr("font-size", "26px")
         .attr("font-weight", "bold")
         .attr("font-family", "sans-serif")
         .text("Chega Votes by Election Year");
@@ -33,7 +33,7 @@ function chega_votes_linechart() {
     function update(data) {
         // X Axis
         const x = d3.scaleOrdinal()
-            .range([0, width/2 ,width])
+            .range([0, width/2, width])
             .domain(data.map(function(d) {
                 return d.year;
             }));
@@ -41,7 +41,7 @@ function chega_votes_linechart() {
         plot_g.append("g")
             .style("font-size", "14px")
             .attr("transform", `translate(0, ${height})`)
-            .call(d3.axisBottom(x).ticks(data.length).tickFormat(d3.format("d")));
+            .call(d3.axisBottom(x).tickFormat(d3.format("d")));
         // Y Axis
         const y = d3.scaleLinear()
             .domain([0, d3.max(data, d => d.votes) + 1000])
