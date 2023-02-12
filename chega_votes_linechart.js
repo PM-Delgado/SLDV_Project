@@ -8,7 +8,7 @@ function chega_votes_linechart() {
     const chega_votes_data = Object.keys(chega_votes_data_map).map(key => ({year: parseInt(key), votes: chega_votes_data_map[key]}));
     const margin = {top:60, bottom: 60, left: 60, right: 60},
     width = 600 - margin.left - margin.right,
-    height = 400 - margin.top - margin.bottom;
+    height = 700 - margin.top - margin.bottom;
 
     // SVG Container
     const svg = d3.select("#chega_linechart").append("svg")
@@ -18,17 +18,7 @@ function chega_votes_linechart() {
         
     const plot_g = svg.append("g")
         .attr("transform", `translate(${margin.left},${margin.top})`);
-    
 
-    // SVG Title
-    plot_g.append("text")
-        .attr("x", 80)
-        .attr("y", -20)
-        .attr("text-align", "center")
-        .attr("font-size", "26px")
-        .attr("font-weight", "bold")
-        .attr("font-family", "sans-serif")
-        .text("Chega Votes by Election Year");
 
     function update(data) {
         // X Axis

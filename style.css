@@ -32,6 +32,13 @@ rect {
     font-size: 15px;
 }
 
+#chega_title {
+    text-anchor: middle;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
 #parlament_donut_tooltip {
     position: absolute;
     min-width :90px;
@@ -176,6 +183,10 @@ rect {
 }
 
 #title_parlament_votes {
+    font-size: 26px;
+}
+
+#title_chega_votes {
     font-size: 26px;
 }
 
