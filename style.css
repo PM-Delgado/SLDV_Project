@@ -1,0 +1,227 @@
+path.arc {
+    stroke:black;
+    stroke-width: 0.8px;
+}
+
+circle {
+    stroke:black;
+    stroke-width: 0.8px;
+}
+
+rect {
+    stroke:black;
+    stroke-width: 0.8px;
+}
+
+#parlament_donut {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#project_context {
+    font-family: sans-serif;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#parlament_donut_title {
+    text-anchor: middle;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#parlament_donut_tooltip {
+    position: absolute;
+    min-width :90px;
+    line-height: 10px;
+    height: 40px;
+    padding: 0 0 25px 0;
+    background-color: rgba(0,0,0,0.6);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 50px;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    fill: #fff;
+    color: #fff;
+    text-anchor: middle;
+    text-align: center;
+    font-weight: bold;
+    z-index: 9999;
+    font-size: 15px;
+}
+#parlament_donut_tooltip:before {
+    border: solid;
+    border-color: rgba(0,0,0,0.6) transparent;
+    border-width: 10px 10px 0 10px;
+    top: 100%;
+    content: "";
+    left: 43%;
+    position: absolute;
+    z-index: 99;
+}
+#parlament_donut_tooltip.hidden {
+    display: none;
+}
+
+#parlament_donut_legend_tooltip {
+    position: absolute;
+    width :200px;
+    height: fit-content;
+    box-sizing: content-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(0,0,0,0.6);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    fill: #fff;
+    color: #fff;
+    text-anchor: start;
+    text-align: justify;
+    font-weight: bold;
+    z-index: 9999;
+    font-size: 12px;
+}
+#parlament_donut_legend_tooltip.hidden {
+    display: none;
+}
+
+#year_list {
+    position:relative;
+    text-anchor: middle;
+    text-align: center;
+    left: 210px;
+    top:-10px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#year_list_values {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#year_list_d {
+    position:relative;
+    text-anchor: middle;
+    text-align: center;
+    left: 260px;
+    top:-10px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#year_list_values_d {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#votes_donut_legend {
+    position: relative;
+    top: 380px;
+    left: 165px;
+    text-anchor: middle;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#donut_legend {
+    position: relative;
+    top: 275px;
+    left: -40px;
+    text-anchor: middle;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#donut_title {
+    position: relative;
+    top: 11px;
+    left: 160px;
+    text-anchor: middle;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#votes_donut {
+    font-family: sans-serif;
+}
+
+.container {
+    display:flex;
+}
+
+#title_discrimination {
+    text-anchor: middle;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 26px;
+}
+
+#title_parlament_votes {
+    font-size: 26px;
+}
+
+#discrimination_barchart_tooltip {
+    position: absolute;
+    min-width :90px;
+    line-height: 10px;
+    height: 40px;
+    padding: 0 0 25px 0;
+    background-color: rgba(0,0,0,0.6);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 50px;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    fill: #fff;
+    color: #fff;
+    text-anchor: middle;
+    text-align: center;
+    font-weight: bold;
+    z-index: 9999;
+    font-size: 12px;
+}
+#discrimination_barchart_tooltip:before {
+    border: solid;
+    border-color: rgba(0,0,0,0.6) transparent;
+    border-width: 10px 10px 0 10px;
+    top: 100%;
+    content: "";
+    left: 43%;
+    position: absolute;
+    z-index: 99;
+}
+#discrimination_barchart_tooltip.hidden {
+    display: none;
+}
+
+#discrimination_barchart {
+    font-family: sans-serif;
+}
+
+#container {
+    border: solid;
+    border-color:  rgb(200, 249, 249);
+    border-width: 3px 3px 3px 3px;
+}
