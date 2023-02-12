@@ -92,7 +92,7 @@ function chega_votes_linechart() {
                 .text(`Votes: ` + (votes_now).toString().replace(/\B(?=(\d{3})+(?!\d))/g, "."))
                 .attr('text-anchor', current_year < (min_year + max_year) / 2 ? "start" : "end")
                 .attr('font-family', 'sans-serif')
-                .attr('font-size', '14px')
+                .attr('font-size', '18px')
                 .attr('font-weight', 'bold');
     
                 mouse_g.select('circle')
