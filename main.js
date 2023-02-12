@@ -5,4 +5,5 @@ function main() {
 function start() {
     parlament_donut();
     votes_donut();
+    chega_votes_linechart();
 }
