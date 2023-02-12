@@ -260,7 +260,7 @@ function parlament_donut() {
             case "IL":
                 return IL_DESC;
                 break;
-            case "CDS/PP":
+            case "CDS-PP":
                 return CDS_DESC;
                 break;
             case "CH":
@@ -296,7 +296,7 @@ function parlament_donut() {
             case "IL":
                 return IL_LINK;
                 break;
-            case "CDS/PP":
+            case "CDS-PP":
                 return CDS_LINK;
                 break;
             case "CH":
