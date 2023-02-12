@@ -7,10 +7,10 @@ function parlament_donut() {
         { party: "PS", deputies: 120, color: "#e75195"},
         { party: "PAN", deputies: 1, color: "#1e6782"},
         { party: "PPD/PSD", deputies: 77, color: "#f39640"},
+        { party: "PSD/CDS", deputies: 0, color: "#D89255"},
         { party: "IL", deputies: 8, color: "#2ea9dc"},
         { party: "CDS-PP", deputies: 0, color: "#6082B6"},
-        { party: "CH", deputies: 12, color: "#242653"},
-        { party: "PSD/CDS", deputies: 0, color: "#D89255"}
+        { party: "CH", deputies: 12, color: "#242653"}
     ];
 
     // Data 2019
@@ -21,10 +21,10 @@ function parlament_donut() {
         { party: "PS", deputies: 108, color: "#e75195"},
         { party: "PAN", deputies: 4, color: "#1e6782"},
         { party: "PPD/PSD", deputies: 79, color: "#f39640"},
+        { party: "PSD/CDS", deputies: 0, color: "#D89255"},
         { party: "IL", deputies: 1, color: "#2ea9dc"},
         { party: "CDS-PP", deputies: 5, color: "#6082B6"},
-        { party: "CH", deputies: 1, color: "#242653"},
-        { party: "PSD/CDS", deputies: 0, color: "#D89255"}
+        { party: "CH", deputies: 1, color: "#242653"}
     ];
 
     // Data 2015
@@ -35,10 +35,10 @@ function parlament_donut() {
         { party: "PS", deputies: 86, color: "#e75195"},
         { party: "PAN", deputies: 1, color: "#1e6782"},
         { party: "PPD/PSD", deputies: 0, color: "#f39640"},
+        { party: "PSD/CDS", deputies: 107, color: "#D89255"},
         { party: "IL", deputies: 0, color: "#2ea9dc"},
         { party: "CDS-PP", deputies: 0, color: "#6082B6"},
-        { party: "CH", deputies: 0, color: "#242653"},
-        { party: "PSD/CDS", deputies: 107, color: "#D89255"}
+        { party: "CH", deputies: 0, color: "#242653"}
     ];
 
     // Party Descriptions
