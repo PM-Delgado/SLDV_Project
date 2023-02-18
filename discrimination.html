@@ -6,12 +6,13 @@
         <script src="https://d3js.org/d3.v7.min.js"></script>
         <script src="discrimination_page.js" defer></script>
         <script src="discrimination_stackedbar.js" defer></script>
+        <script src="origincomp_stackedbar.js" defer></script>
     </head>
 
     <body onload="discrimination_page()">
         <div class="container" id="container">
             <div id="project_context" style="width: 300px;  background-color: rgb(157, 191, 191);">
-                <h1 style="text-align: center; font-size: 26px;">Chega and Discrimination in Portugal</h1>
+                <h1 style="text-align: center; font-size: 26px;">Discrimination in Portugal</h1>
                 <div style="font-size: 14px">
                     TODO
                     <br>
@@ -39,8 +40,19 @@
                 </div>
             </div>
 
-            <div id="test2" style="width: 600px; background-color: rgb(223, 248, 248); font-family: sans-serif;">
-                
+            <div id="origin_complaints" style="width: 600px; background-color: rgb(223, 248, 248); font-family: sans-serif;">
+                <div id="discrimination_barchart_title">
+                    <h1 id="title_discrimination" style="font-size: 25px;">Origin of complaints: 3 main target groups (2021)</h1>
+                </div>
+                <div id="origincomp_stackedbarchart" style="height: 700px;">
+                    <div id="origin_barchart_tooltip" class="hidden">
+                        <p><span id="origin"><strong></strong></span></p>
+                        <p><span id="value"></span></p>
+                    </div>
+                    <div id="origin_barchart_legend_tooltip" class="hidden">
+                        <p><span id="text"></span></p>
+                    </div>
+                </div>
             </div>
 
             <!--

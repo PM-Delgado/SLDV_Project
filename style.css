@@ -137,6 +137,35 @@ rect {
     display: none;
 }
 
+#origin_barchart_legend_tooltip {
+    position: absolute;
+    width : 115px;
+    height: fit-content;
+    box-sizing: content-box;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(0,0,0,0.6);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 50px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    fill: #fff;
+    color: #fff;
+    text-anchor: start;
+    text-align: justify;
+    font-weight: bold;
+    z-index: 9999;
+    font-size: 12px;
+}
+
+#origin_barchart_legend_tooltip.hidden {
+    display: none;
+}
+
 #year_list {
     position:relative;
     text-anchor: middle;
@@ -262,6 +291,43 @@ rect {
 
 #discrimination_barchart {
     font-family: sans-serif;
+}
+
+#origin_barchart_tooltip {
+    position: absolute;
+    min-width: 120px;
+    line-height: 5px;
+    height: 40px;
+    padding: 0 0 30px 0;
+    background-color: rgba(0,0,0,0.6);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 50px;
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    fill: #fff;
+    color: #fff;
+    text-anchor: middle;
+    text-align: center;
+    font-weight: bold;
+    z-index: 9999;
+    font-size: 16px;
+}
+#origin_barchart_tooltip:before {
+    border: solid;
+    border-color: rgba(0,0,0,0.6) transparent;
+    border-width: 10px 10px 0 10px;
+    top: 100%;
+    content: "";
+    left: 43%;
+    position: absolute;
+    z-index: 99;
+}
+#origin_barchart_tooltip.hidden {
+    display: none;
 }
 
 #container {
