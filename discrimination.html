@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>!!!!!</title>
+        <title>Discrimination in Portugal</title>
         <link rel="stylesheet" href="style.css">
         <script src="https://d3js.org/d3.v7.min.js"></script>
         <script src="discrimination_page.js" defer></script>
@@ -13,19 +13,10 @@
             <div id="project_context" style="width: 300px;  background-color: rgb(157, 191, 191);">
                 <h1 style="text-align: center; font-size: 26px;">Chega and Discrimination in Portugal</h1>
                 <div style="font-size: 14px">
-                    Like many other far-right political parties, Chega is known for it's minorities discrimation idiologies,
-                    specially against the romani ethnicity in Portugal.
+                    TODO
                     <br>
                     <br>
-                    Therefore, this project was made in order to visualize the amount of discrimation complaints reported by minorities,
-                    highlighting the romani ethnicity, taking into consideration Chega's presence in the parlament and it's rise to power.
-                    <br>
-                    <br>
-                    All the data used in this project was taken from <a href="http://www.parlamento.pt/" target="_blank">Portuguese Parlament's official website</a>
-                    and from the <a href="https://www.cicdr.pt" target="_blank">Commission for Equality and Against Racial Discrimination</a>.
-                    <br>
-                    <br>
-                    <a href="index.html" style="font-size: 25px; font-weight: bold;">CHEGA TODO</a>.
+                    <a href="index.html" style="font-weight: bold;">CHEGA</a>
                     <br>
                     <br>
                     <div style="text-align: center; opacity: 0.5;"><a href="https://github.com/scumfuckflxwerbxy">Pedro Delgado</a></div>
@@ -34,17 +25,21 @@
 
             <div id="discrimination_sbar" style="width: 600px; background-color: rgb(223, 248, 248); font-family: sans-serif;">
                 <div id="discrimination_barchart_title">
-                    <h1 id="title_discrimination">Discrimination Complaints in Portugal</h1>
+                    <h1 id="title_discrimination">Discrimination Complaints by type in Portugal</h1>
                 </div>
-                <div id="discrimination_stackedbarchart" style="height: 500px;">
+                <div id="discrimination_stackedbarchart" style="height: 700px;">
                     <div id="discrimination_barchart_tooltip" class="hidden">
-                        <p><span id="name"><strong></strong></span></p>
-                        <p><span id="value">230</span></p>
+                        <p><span id="year"><strong></strong></span></p>
+                        <p><span id="factor"><strong></strong></span></p>
+                        <p><span id="value"></span></p>
+                    </div>
+                    <div id="discrimination_barchart_legend_tooltip" class="hidden">
+                        <p><span id="text"></span></p>
                     </div>
                 </div>
             </div>
 
-            <div id="test2" style="width: 600px; background-color:rgb(3, 29, 29); font-family: sans-serif;">
+            <div id="test2" style="width: 600px; background-color: rgb(223, 248, 248); font-family: sans-serif;">
                 
             </div>
 
