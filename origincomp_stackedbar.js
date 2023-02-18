@@ -88,7 +88,7 @@ function origincomp_stackedbar() {
                     .on("mousemove", function (event,d) {
                         const subGroupName = d3.select(this.parentNode).datum().key
                         d3.select("#origin_barchart_tooltip")
-                                .style("left", (event.pageX) - 58 + "px")
+                                .style("left", (event.pageX) - 62 + "px")
                                 .style("top", (event.pageY) - 79 + "px")
                                 .select("#origin")
                                 .text(translateCSVtoGraph(subGroupName));
